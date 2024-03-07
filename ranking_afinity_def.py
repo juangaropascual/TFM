@@ -166,15 +166,15 @@ if __name__ == '__main__':
     path = sys.argv[2]
     distancias_A = []
     distancias_B = []
-    i = 0
+    # i = 0
     analysis_counter = sys.argv[3]
     files = os.listdir(path)
     sorted_files = sorted(files, key=extract_number)
 
-    for file in sorted_files:
+    for i,file in enumerate(sorted_files):
         ligand = load_ligand(path, file)
         confidence = extract_confidence(file)
         calculate_distances(prot, ligand, i, confidence, distancias_A, distancias_B)
-        i += 1
+        # i += 1
 
     analyze_distances(distancias_A, distancias_B)
