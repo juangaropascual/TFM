@@ -4,7 +4,8 @@ With this implementation of Diffdock the relative affinity of two molecules to t
 
 ## Usage
 
-``./all_run.sh --chainA chainA.pdb --chainB chainB.pdb --out output.pdb --smiles 'SMILES' --replicas n
-``
+```
+./all_run.sh --chainA chainA.pdb --chainB chainB.pdb --out output.pdb --smiles 'SMILES' --replicas n
+```
 
 All the PDB files must be "clean", without water molecules, and they must be only one chain per PDB file for the analysis to work.
