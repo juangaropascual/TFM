@@ -1,0 +1,24 @@
+############# STRUCTURES #############
+
+AF=1
+DF=1
+OF=1
+
+################## RANK #####################
+
+n_samples=10
+
+############### DD PARAMETERS ###############
+
+n_replica=1                                     # Number of times repeting the Diffdock running
+docking_program=DD_L                              # Set which docking_program do you want to use (DD=Diffdock, DD_L=Diffdock-L)
+samples=60                                      # Number of samples per complex predicted #DD-L (default_inference_args.yaml)
+run_name=side-chains-3         # Name of the prediction, the SLURM job and the results file in /DD will ahve this name 
+DD_path=/home/ramon/progs/DiffDock_L                   # Path where DiffDock or DiffDock-L are located
+auto_analysis=true                              # Analyse the docking results when the docking finish
+SMILES='CC(=O)CCCCn1c(=O)n(C)c2ncn(C)c2c1=O'
+############# MUTATIONS #############
+
+n_mutations=10
+ds=2,3,4,9     # POSITIONS (not index) of the aa of the docking site. i.e. 2,3,4,9,15
+

@@ -1,0 +1,11 @@
+complex_name,ligand_description,protein_path,protein_sequence
+deG123_deG131,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG123_deG131.pdb,
+deG123_deG29,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG123_deG29.pdb,
+deG123_deG54,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG123_deG54.pdb,
+deG123_deWT,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG123_deWT.pdb,
+deG131_deG29,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG131_deG29.pdb,
+deG131_deG54,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG131_deG54.pdb,
+deG131_deWT,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG131_deWT.pdb,
+deG29_deG54,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG29_deG54.pdb,
+deG29_deWT,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG29_deWT.pdb,
+deG54_deWT,CNCC1=CC=C(C=C1)C2=C3CCNC(=O)C4=C3C(=CC(=C4)F)N2,/home/ramon/juan/CODI/prot_mutation/protein_structures/deGrado/merged_structures/AF/deG54_deWT.pdb,
